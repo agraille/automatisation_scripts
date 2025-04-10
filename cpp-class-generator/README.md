@@ -14,7 +14,6 @@ cd cpp-class-generator && make
 
 ## Sortie:
 ```c++
-// MyClass.hpp
 #ifndef MYCLASS_HPP
 #define MYCLASS_HPP
 
@@ -33,7 +32,6 @@ class MyClass {
 #endif // MYCLASS_HPP
 ```
 ```c++
-// MyClass.cpp
 #include "MyClass.hpp"
 
 MyClass::MyClass(){
