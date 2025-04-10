@@ -12,6 +12,7 @@ cd cpp-class-generator && make
 ./canonClassGenerator "Enter one or more class"
 ```
 
+## Sortie:
 ```c++
 // MyClass.hpp
 #ifndef MYCLASS_HPP
@@ -30,7 +31,8 @@ class MyClass {
 };
 
 #endif // MYCLASS_HPP
-
+```
+```c++
 // MyClass.cpp
 #include "MyClass.hpp"
 
