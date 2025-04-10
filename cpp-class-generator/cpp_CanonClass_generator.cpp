@@ -10,7 +10,7 @@
 #define RESET "\033[0m"
 
 void writeToCppFile(std::ofstream& cppFile, const std::string& str){
-    cppFile << "\n#include \"" << str << ".hpp\"\n\n";
+    cppFile << "#include \"" << str << ".hpp\"\n\n";
     cppFile << str << "::" << str << "(){\n";
     cppFile << "}\n\n";
     cppFile << str << "::" << str << "(const " << str << "& other){\n";
