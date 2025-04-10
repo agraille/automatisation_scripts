@@ -6,7 +6,7 @@
 git clone https://github.com/agraille/automatisation_scripts.git
 ```
 ```
-cd cpp-class-generator && make
+cd automatisation_scripts/cpp-class-generator && make
 ```
 ```
 ./canonClassGenerator /path/dest "Enter one or more class"
